@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    box-sizing: border-box !important;
+}
+
+/* navbar Section Start Here */
+.navbarSection {
+    padding: 30px 0 !important;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px !important;
+}
+
+.navli {
+    text-decoration: none;
+
+}
+
+.navli:hover {
+    color: #979797;
+}
+
+.navbarUl li a {
+    color: white;
+    text-transform: uppercase !important;
+    padding: 0 20px !important;
+    font-family: Montserrat;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navmixed {
+    margin-left: 130px !important;
+}
+
+.navbar-expand-lg {
+    margin-top: 0 !important;
+    position: fixed !important;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.682);
+}
+
+.chooseLanguage {
+    margin-left: 150px !important;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+/* Hero Section Start Here*/
+.heroSectionText {
+    color: white;
+    margin-top: 200px !important;
+}
+
+/* Text Animation */
+
+.textAnimation {
+    font-family: Montserrat;
+    background-image: linear-gradient(-225deg,
+            #ffffff 0%,
+            #ffbc6f 35%,
+            #ffbb00 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 6s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.mithun {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    font-family: Montserrat;
+}
+
+.button1:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.button1 {
+    padding: 10px 25px;
+    background-color: rgb(255, 191, 0);
+    border: none;
+    box-shadow: 1px 1px 10px #d49b00;
+    font-family: Montserrat;
+}
+
+.imageSection {
+    width: 600px;
+    margin: 100px 0 0 0;
+}
+
+.icon {
+    display: flex;
+    margin-top: 200px;
+}
+
+.dribbble,
+.facebook,
+.github,
+.twitter,
+.instagram {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.vertical-text {
+    font-family: Montserrat;
+    writing-mode: vertical-rl;
+    font-size: 10px;
+}
+
+/* About Section */
+.About {
+    background-color: rgb(48, 48, 56);
+}
+
+.aboutImage {
+    margin: 25px 0;
+}
+
+.About-text {
+    margin-top: 170px !important;
+    font-family: Montserrat;
+}
+
+.button2,
+.button3 {
+    font-family: Montserrat;
+    padding: 10px 30px;
+    background-color: rgb(255, 191, 0);
+    border: none;
+    box-shadow: 1px 1px 10px #d49b00;
+}
+
+.button3 {
+    margin-left: 10px;
+}
+
+.button2:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+.button3:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+/* Skill Section */
+.skillSection {
+    margin: 120px 0 !important;
+}
+
+.mySkill {
+    font-family: Montserrat;
+    writing-mode: vertical-rl;
+    margin: 120px 0 !important;
+}
+
+/* Expertise Area */
+.expertiseArea {
+    background-color: rgb(48, 48, 56);
+}
+
+.expertiseDiv {
+    margin-top: 70px !important;
+    font-family: Montserrat;
+}
+
+.expertiseSection {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 !important;
+    font-family: Montserrat;
+}
+
+.webIcon,
+.vectorIcon,
+.appIcon {
+    width: 50px;
+    margin-bottom: 20px !important;
+}
+
+.uiuxDesign,
+.appIconDesign,
+.vectorDesign {
+    padding: 35px 30px;
+    background-color: rgba(48, 48, 56, 0.184);
+    box-shadow: 1px 1px 5px rgb(29, 29, 33);
+}
+
+.appIconDesign:hover{
+    background-color: #ffbb0068 !important;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.uiuxDesign:hover{
+    background-color: #ffbb0068;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.vectorDesign:hover{
+    background-color: #ffbb0068;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.appIconDesign {
+    margin: 0 10px;
+}
+
+.dot {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.dot2 {
+    background-color: transparent;
+    border: 2px solid #d5a000;
+}
+
+/* Education Section */
+
+.resumeSection {
+    margin-bottom: 50px !important;
+    font-family: Montserrat;
+}
+
+.resume {
+    margin: 70px 0 !important;
+    font-family: Montserrat;
+}
+
+.education {
+    padding: 50px 50px !important;
+    box-shadow: 1px 1px 5px black !important;
+    margin: 20px 10px;
+}
+
+/* Testimonial Section Here */
+
+.testimonialSection {
+    background-color: rgb(48, 48, 56);
+    font-family: Montserrat;
+}
+
+.testimonialText {
+    margin: 70px 0 !important;
+}
+
+.col {
+    margin-bottom: 70px !important;
+}
+
+.card-img-top {
+    width: 500px !important;
+}
+
+.card {
+    overflow: hidden !important;
+    box-shadow: 2px 2px 7px rgba(24, 24, 27, 0.56);
+    background-color: rgba(48, 48, 56, 0.56) !important;
+}
+
+/* Clients Section */
+.ClientsText {
+    margin: 70px 0 !important;
+    font-family: Montserrat;
+}
+
+.clientImage {
+    margin-bottom: 100px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.cylogo {
+    width: 170px;
+}
+
+.client {
+    padding: 20px 20px;
+    box-shadow: 1px 1px 5px black;
+    border-left: 1px solid #ffbb00;
+    border-right: 1px solid #ffbb00;
+}
+
+/* Hello Section */
+
+.helloSection {
+    background: linear-gradient(rgba(55, 55, 55, 0.412), rgba(36, 36, 36, 0.293)), url(sky.jpg);
+    background-position: cover;
+    font-family: Montserrat;
+}
+
+.hello {
+    margin: 120px 0 !important;
+}
+
+.hello .text-warning {
+    font-size: 60px;
+}
+
+.button5 {
+    padding: 10px 30px;
+    background-color: #ffbb00;
+    border: none;
+    box-shadow: 1px 1px 10px #d49b00;
+}
+
+.button5:hover {
+    background-color: #000000;
+    color: white;
+}
+
+/* footer Section */
+
+.Footertext {
+    margin: 70px 0px !important;
+    font-family: Montserrat;
+}
+
+.justsayhello {
+    font-size: 40px;
+}
+
+.justsayhello {
+    background-image: linear-gradient(-225deg,
+            #ffffff 0%,
+            #ffbc6f 35%,
+            #ffbb00 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 6s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.contact {
+    margin-top: 50px !important;
+}
+
+.button6 {
+    padding: 10px 40px;
+    background-color: #ffbb00;
+    border: none;
+    box-shadow: 1px 1px 10px #d49b00;
+}
+
+.button6:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.5s;
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid #ffbb00 !important;
+    color: white !important;
+}
+
+.inputField {
+    margin-top: 50px !important;
+    font-family: Montserrat;
+}
+
+/* copyright */
+.col-12 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+/* Responsive Area */
+
+@media (max-width: 414px) {
+
+    .navbar-toggler {
+        margin-right: 40px !important;
+    }
+
+    /* About Section */
+    .button3,
+    .button2 {
+        padding: 10px 15px !important;
+        margin-bottom: 40px;
+    }
+
+    .About-text {
+        margin-top: 30px !important;
+    }
+
+    /* Hero Section */
+    .icon {
+        margin-top: 40px;
+    }
+
+    .imageSection {
+        margin-top: 40px;
+    }
+
+    .heroSectionText {
+        margin-top: 100px !important;
+    }
+
+    /* Skill Section */
+    .mySkill {
+        writing-mode: horizontal-tb;
+        text-align: center;
+        margin: 30px 0 !important;
+    }
+
+    .skillby1 {
+        margin-top: 20px !important;
+    }
+
+    .skillby2 {
+        margin-top: 5px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .expertiseSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .appIconDesign {
+        margin: 20px 0px;
+
+    }
+
+    .inputField {
+        margin-bottom: 30px;
+    }
+}
